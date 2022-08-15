@@ -1,0 +1,889 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04664F4428AA8CC300C8E7B1 /* iTemps WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 04664F4328AA8CC300C8E7B1 /* iTemps WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		04664F4928AA8CC800C8E7B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04664F4828AA8CC800C8E7B1 /* Assets.xcassets */; };
+		04664F4F28AA8CC900C8E7B1 /* iTemps WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 04664F4E28AA8CC900C8E7B1 /* iTemps WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		04664F5428AA8CC900C8E7B1 /* iTempsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04664F5328AA8CC900C8E7B1 /* iTempsApp.swift */; };
+		04664F5628AA8CC900C8E7B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04664F5528AA8CC900C8E7B1 /* ContentView.swift */; };
+		04664F5828AA8CC900C8E7B1 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04664F5728AA8CC900C8E7B1 /* NotificationController.swift */; };
+		04664F5A28AA8CC900C8E7B1 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04664F5928AA8CC900C8E7B1 /* NotificationView.swift */; };
+		04664F5C28AA8CC900C8E7B1 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04664F5B28AA8CC900C8E7B1 /* ComplicationController.swift */; };
+		04664F5E28AA8CCA00C8E7B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04664F5D28AA8CCA00C8E7B1 /* Assets.xcassets */; };
+		04664F6128AA8CCA00C8E7B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04664F6028AA8CCA00C8E7B1 /* Preview Assets.xcassets */; };
+		04664F6D28AA8CCA00C8E7B1 /* iTempsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04664F6C28AA8CCA00C8E7B1 /* iTempsTests.swift */; };
+		04664F7728AA8CCA00C8E7B1 /* iTempsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04664F7628AA8CCA00C8E7B1 /* iTempsUITests.swift */; };
+		04664F7928AA8CCA00C8E7B1 /* iTempsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04664F7828AA8CCA00C8E7B1 /* iTempsUITestsLaunchTests.swift */; };
+		04664F9128AA8EB000C8E7B1 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04664F9028AA8EB000C8E7B1 /* NetworkManager.swift */; };
+		04664F9328AA92C400C8E7B1 /* WeatherResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04664F9228AA92C400C8E7B1 /* WeatherResponse.swift */; };
+		04664F9528AA943600C8E7B1 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04664F9428AA943600C8E7B1 /* WeatherModel.swift */; };
+		04664F9728AA947500C8E7B1 /* WeatherCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04664F9628AA947500C8E7B1 /* WeatherCoordinates.swift */; };
+		04664F9928AA94C500C8E7B1 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04664F9828AA94C500C8E7B1 /* WeatherManager.swift */; };
+		04664F9B28AA962E00C8E7B1 /* WeatherLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04664F9A28AA962E00C8E7B1 /* WeatherLocationManager.swift */; };
+		04664F9D28AA9B1000C8E7B1 /* CityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04664F9C28AA9B1000C8E7B1 /* CityModel.swift */; };
+		04664F9F28AA9F1300C8E7B1 /* OutlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04664F9E28AA9F1300C8E7B1 /* OutlineView.swift */; };
+		04664FA128AAA04300C8E7B1 /* WatchWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04664FA028AAA04300C8E7B1 /* WatchWeatherView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04664F4528AA8CC300C8E7B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04664F3928AA8CC300C8E7B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04664F4228AA8CC300C8E7B1;
+			remoteInfo = "iTemps WatchKit App";
+		};
+		04664F5028AA8CC900C8E7B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04664F3928AA8CC300C8E7B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04664F4D28AA8CC900C8E7B1;
+			remoteInfo = "iTemps WatchKit Extension";
+		};
+		04664F6928AA8CCA00C8E7B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04664F3928AA8CC300C8E7B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04664F4D28AA8CC900C8E7B1;
+			remoteInfo = "iTemps WatchKit Extension";
+		};
+		04664F7328AA8CCA00C8E7B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04664F3928AA8CC300C8E7B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04664F4228AA8CC300C8E7B1;
+			remoteInfo = "iTemps WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		04664F7F28AA8CCA00C8E7B1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				04664F4F28AA8CC900C8E7B1 /* iTemps WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04664F8328AA8CCA00C8E7B1 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				04664F4428AA8CC300C8E7B1 /* iTemps WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04664F3F28AA8CC300C8E7B1 /* iTemps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTemps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04664F4328AA8CC300C8E7B1 /* iTemps WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iTemps WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04664F4828AA8CC800C8E7B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04664F4E28AA8CC900C8E7B1 /* iTemps WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "iTemps WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04664F5328AA8CC900C8E7B1 /* iTempsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTempsApp.swift; sourceTree = "<group>"; };
+		04664F5528AA8CC900C8E7B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04664F5728AA8CC900C8E7B1 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		04664F5928AA8CC900C8E7B1 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		04664F5B28AA8CC900C8E7B1 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		04664F5D28AA8CCA00C8E7B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04664F6028AA8CCA00C8E7B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04664F6228AA8CCA00C8E7B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04664F6328AA8CCA00C8E7B1 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		04664F6828AA8CCA00C8E7B1 /* iTempsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTempsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04664F6C28AA8CCA00C8E7B1 /* iTempsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTempsTests.swift; sourceTree = "<group>"; };
+		04664F7228AA8CCA00C8E7B1 /* iTempsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTempsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04664F7628AA8CCA00C8E7B1 /* iTempsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTempsUITests.swift; sourceTree = "<group>"; };
+		04664F7828AA8CCA00C8E7B1 /* iTempsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTempsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04664F9028AA8EB000C8E7B1 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		04664F9228AA92C400C8E7B1 /* WeatherResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherResponse.swift; sourceTree = "<group>"; };
+		04664F9428AA943600C8E7B1 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		04664F9628AA947500C8E7B1 /* WeatherCoordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCoordinates.swift; sourceTree = "<group>"; };
+		04664F9828AA94C500C8E7B1 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		04664F9A28AA962E00C8E7B1 /* WeatherLocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherLocationManager.swift; sourceTree = "<group>"; };
+		04664F9C28AA9B1000C8E7B1 /* CityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityModel.swift; sourceTree = "<group>"; };
+		04664F9E28AA9F1300C8E7B1 /* OutlineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineView.swift; sourceTree = "<group>"; };
+		04664FA028AAA04300C8E7B1 /* WatchWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchWeatherView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04664F4B28AA8CC900C8E7B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04664F6528AA8CCA00C8E7B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04664F6F28AA8CCA00C8E7B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04664F3828AA8CC300C8E7B1 = {
+			isa = PBXGroup;
+			children = (
+				04664F4728AA8CC300C8E7B1 /* iTemps WatchKit App */,
+				04664F5228AA8CC900C8E7B1 /* iTemps WatchKit Extension */,
+				04664F6B28AA8CCA00C8E7B1 /* iTempsTests */,
+				04664F7528AA8CCA00C8E7B1 /* iTempsUITests */,
+				04664F4028AA8CC300C8E7B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04664F4028AA8CC300C8E7B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04664F3F28AA8CC300C8E7B1 /* iTemps.app */,
+				04664F4328AA8CC300C8E7B1 /* iTemps WatchKit App.app */,
+				04664F4E28AA8CC900C8E7B1 /* iTemps WatchKit Extension.appex */,
+				04664F6828AA8CCA00C8E7B1 /* iTempsTests.xctest */,
+				04664F7228AA8CCA00C8E7B1 /* iTempsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04664F4728AA8CC300C8E7B1 /* iTemps WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				04664F4828AA8CC800C8E7B1 /* Assets.xcassets */,
+			);
+			path = "iTemps WatchKit App";
+			sourceTree = "<group>";
+		};
+		04664F5228AA8CC900C8E7B1 /* iTemps WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				04664F8F28AA8D2400C8E7B1 /* Managers */,
+				04664F8E28AA8D1C00C8E7B1 /* Models */,
+				04664F8D28AA8D1300C8E7B1 /* Views */,
+				04664F5328AA8CC900C8E7B1 /* iTempsApp.swift */,
+				04664F5528AA8CC900C8E7B1 /* ContentView.swift */,
+				04664F5728AA8CC900C8E7B1 /* NotificationController.swift */,
+				04664F5928AA8CC900C8E7B1 /* NotificationView.swift */,
+				04664F5B28AA8CC900C8E7B1 /* ComplicationController.swift */,
+				04664F5D28AA8CCA00C8E7B1 /* Assets.xcassets */,
+				04664F6228AA8CCA00C8E7B1 /* Info.plist */,
+				04664F6328AA8CCA00C8E7B1 /* PushNotificationPayload.apns */,
+				04664F5F28AA8CCA00C8E7B1 /* Preview Content */,
+			);
+			path = "iTemps WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		04664F5F28AA8CCA00C8E7B1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				04664F6028AA8CCA00C8E7B1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04664F6B28AA8CCA00C8E7B1 /* iTempsTests */ = {
+			isa = PBXGroup;
+			children = (
+				04664F6C28AA8CCA00C8E7B1 /* iTempsTests.swift */,
+			);
+			path = iTempsTests;
+			sourceTree = "<group>";
+		};
+		04664F7528AA8CCA00C8E7B1 /* iTempsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04664F7628AA8CCA00C8E7B1 /* iTempsUITests.swift */,
+				04664F7828AA8CCA00C8E7B1 /* iTempsUITestsLaunchTests.swift */,
+			);
+			path = iTempsUITests;
+			sourceTree = "<group>";
+		};
+		04664F8D28AA8D1300C8E7B1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04664F9E28AA9F1300C8E7B1 /* OutlineView.swift */,
+				04664FA028AAA04300C8E7B1 /* WatchWeatherView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04664F8E28AA8D1C00C8E7B1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04664F9228AA92C400C8E7B1 /* WeatherResponse.swift */,
+				04664F9428AA943600C8E7B1 /* WeatherModel.swift */,
+				04664F9628AA947500C8E7B1 /* WeatherCoordinates.swift */,
+				04664F9C28AA9B1000C8E7B1 /* CityModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		04664F8F28AA8D2400C8E7B1 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				04664F9028AA8EB000C8E7B1 /* NetworkManager.swift */,
+				04664F9828AA94C500C8E7B1 /* WeatherManager.swift */,
+				04664F9A28AA962E00C8E7B1 /* WeatherLocationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04664F3E28AA8CC300C8E7B1 /* iTemps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04664F8428AA8CCA00C8E7B1 /* Build configuration list for PBXNativeTarget "iTemps" */;
+			buildPhases = (
+				04664F3D28AA8CC300C8E7B1 /* Resources */,
+				04664F8328AA8CCA00C8E7B1 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04664F4628AA8CC300C8E7B1 /* PBXTargetDependency */,
+			);
+			name = iTemps;
+			productName = iTemps;
+			productReference = 04664F3F28AA8CC300C8E7B1 /* iTemps.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		04664F4228AA8CC300C8E7B1 /* iTemps WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04664F8028AA8CCA00C8E7B1 /* Build configuration list for PBXNativeTarget "iTemps WatchKit App" */;
+			buildPhases = (
+				04664F4128AA8CC300C8E7B1 /* Resources */,
+				04664F7F28AA8CCA00C8E7B1 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04664F5128AA8CC900C8E7B1 /* PBXTargetDependency */,
+			);
+			name = "iTemps WatchKit App";
+			productName = "iTemps WatchKit App";
+			productReference = 04664F4328AA8CC300C8E7B1 /* iTemps WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		04664F4D28AA8CC900C8E7B1 /* iTemps WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04664F7C28AA8CCA00C8E7B1 /* Build configuration list for PBXNativeTarget "iTemps WatchKit Extension" */;
+			buildPhases = (
+				04664F4A28AA8CC900C8E7B1 /* Sources */,
+				04664F4B28AA8CC900C8E7B1 /* Frameworks */,
+				04664F4C28AA8CC900C8E7B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iTemps WatchKit Extension";
+			productName = "iTemps WatchKit Extension";
+			productReference = 04664F4E28AA8CC900C8E7B1 /* iTemps WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		04664F6728AA8CCA00C8E7B1 /* iTempsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04664F8728AA8CCA00C8E7B1 /* Build configuration list for PBXNativeTarget "iTempsTests" */;
+			buildPhases = (
+				04664F6428AA8CCA00C8E7B1 /* Sources */,
+				04664F6528AA8CCA00C8E7B1 /* Frameworks */,
+				04664F6628AA8CCA00C8E7B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04664F6A28AA8CCA00C8E7B1 /* PBXTargetDependency */,
+			);
+			name = iTempsTests;
+			productName = iTempsTests;
+			productReference = 04664F6828AA8CCA00C8E7B1 /* iTempsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04664F7128AA8CCA00C8E7B1 /* iTempsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04664F8A28AA8CCA00C8E7B1 /* Build configuration list for PBXNativeTarget "iTempsUITests" */;
+			buildPhases = (
+				04664F6E28AA8CCA00C8E7B1 /* Sources */,
+				04664F6F28AA8CCA00C8E7B1 /* Frameworks */,
+				04664F7028AA8CCA00C8E7B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04664F7428AA8CCA00C8E7B1 /* PBXTargetDependency */,
+			);
+			name = iTempsUITests;
+			productName = iTempsUITests;
+			productReference = 04664F7228AA8CCA00C8E7B1 /* iTempsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04664F3928AA8CC300C8E7B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					04664F3E28AA8CC300C8E7B1 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					04664F4228AA8CC300C8E7B1 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					04664F4D28AA8CC900C8E7B1 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					04664F6728AA8CCA00C8E7B1 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 04664F4D28AA8CC900C8E7B1;
+					};
+					04664F7128AA8CCA00C8E7B1 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 04664F4228AA8CC300C8E7B1;
+					};
+				};
+			};
+			buildConfigurationList = 04664F3C28AA8CC300C8E7B1 /* Build configuration list for PBXProject "iTemps" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04664F3828AA8CC300C8E7B1;
+			productRefGroup = 04664F4028AA8CC300C8E7B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04664F3E28AA8CC300C8E7B1 /* iTemps */,
+				04664F4228AA8CC300C8E7B1 /* iTemps WatchKit App */,
+				04664F4D28AA8CC900C8E7B1 /* iTemps WatchKit Extension */,
+				04664F6728AA8CCA00C8E7B1 /* iTempsTests */,
+				04664F7128AA8CCA00C8E7B1 /* iTempsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04664F3D28AA8CC300C8E7B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04664F4128AA8CC300C8E7B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04664F4928AA8CC800C8E7B1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04664F4C28AA8CC900C8E7B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04664F6128AA8CCA00C8E7B1 /* Preview Assets.xcassets in Resources */,
+				04664F5E28AA8CCA00C8E7B1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04664F6628AA8CCA00C8E7B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04664F7028AA8CCA00C8E7B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04664F4A28AA8CC900C8E7B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04664F9128AA8EB000C8E7B1 /* NetworkManager.swift in Sources */,
+				04664F9F28AA9F1300C8E7B1 /* OutlineView.swift in Sources */,
+				04664F9728AA947500C8E7B1 /* WeatherCoordinates.swift in Sources */,
+				04664F9928AA94C500C8E7B1 /* WeatherManager.swift in Sources */,
+				04664F5828AA8CC900C8E7B1 /* NotificationController.swift in Sources */,
+				04664F5628AA8CC900C8E7B1 /* ContentView.swift in Sources */,
+				04664F9328AA92C400C8E7B1 /* WeatherResponse.swift in Sources */,
+				04664F9B28AA962E00C8E7B1 /* WeatherLocationManager.swift in Sources */,
+				04664F5C28AA8CC900C8E7B1 /* ComplicationController.swift in Sources */,
+				04664F9D28AA9B1000C8E7B1 /* CityModel.swift in Sources */,
+				04664F5428AA8CC900C8E7B1 /* iTempsApp.swift in Sources */,
+				04664F9528AA943600C8E7B1 /* WeatherModel.swift in Sources */,
+				04664F5A28AA8CC900C8E7B1 /* NotificationView.swift in Sources */,
+				04664FA128AAA04300C8E7B1 /* WatchWeatherView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04664F6428AA8CCA00C8E7B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04664F6D28AA8CCA00C8E7B1 /* iTempsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04664F6E28AA8CCA00C8E7B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04664F7928AA8CCA00C8E7B1 /* iTempsUITestsLaunchTests.swift in Sources */,
+				04664F7728AA8CCA00C8E7B1 /* iTempsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04664F4628AA8CC300C8E7B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04664F4228AA8CC300C8E7B1 /* iTemps WatchKit App */;
+			targetProxy = 04664F4528AA8CC300C8E7B1 /* PBXContainerItemProxy */;
+		};
+		04664F5128AA8CC900C8E7B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04664F4D28AA8CC900C8E7B1 /* iTemps WatchKit Extension */;
+			targetProxy = 04664F5028AA8CC900C8E7B1 /* PBXContainerItemProxy */;
+		};
+		04664F6A28AA8CCA00C8E7B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04664F4D28AA8CC900C8E7B1 /* iTemps WatchKit Extension */;
+			targetProxy = 04664F6928AA8CCA00C8E7B1 /* PBXContainerItemProxy */;
+		};
+		04664F7428AA8CCA00C8E7B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04664F4228AA8CC300C8E7B1 /* iTemps WatchKit App */;
+			targetProxy = 04664F7328AA8CCA00C8E7B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04664F7A28AA8CCA00C8E7B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04664F7B28AA8CCA00C8E7B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04664F7D28AA8CCA00C8E7B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iTemps WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = KMR6G4Q967;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iTemps WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "iTemps WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MartaW.iTemps.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		04664F7E28AA8CCA00C8E7B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iTemps WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = KMR6G4Q967;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iTemps WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "iTemps WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MartaW.iTemps.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		04664F8128AA8CCA00C8E7B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KMR6G4Q967;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = iTemps_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "iTemps WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MartaW.iTemps.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		04664F8228AA8CCA00C8E7B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KMR6G4Q967;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = iTemps_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "iTemps WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MartaW.iTemps.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		04664F8528AA8CCA00C8E7B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KMR6G4Q967;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MartaW.iTemps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		04664F8628AA8CCA00C8E7B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KMR6G4Q967;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MartaW.iTemps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		04664F8828AA8CCA00C8E7B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KMR6G4Q967;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MartaW.iTempsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iTemps WatchKit Extension.appex/iTemps WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		04664F8928AA8CCA00C8E7B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KMR6G4Q967;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MartaW.iTempsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iTemps WatchKit Extension.appex/iTemps WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		04664F8B28AA8CCA00C8E7B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KMR6G4Q967;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MartaW.iTempsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "iTemps WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		04664F8C28AA8CCA00C8E7B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KMR6G4Q967;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MartaW.iTempsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "iTemps WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04664F3C28AA8CC300C8E7B1 /* Build configuration list for PBXProject "iTemps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04664F7A28AA8CCA00C8E7B1 /* Debug */,
+				04664F7B28AA8CCA00C8E7B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04664F7C28AA8CCA00C8E7B1 /* Build configuration list for PBXNativeTarget "iTemps WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04664F7D28AA8CCA00C8E7B1 /* Debug */,
+				04664F7E28AA8CCA00C8E7B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04664F8028AA8CCA00C8E7B1 /* Build configuration list for PBXNativeTarget "iTemps WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04664F8128AA8CCA00C8E7B1 /* Debug */,
+				04664F8228AA8CCA00C8E7B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04664F8428AA8CCA00C8E7B1 /* Build configuration list for PBXNativeTarget "iTemps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04664F8528AA8CCA00C8E7B1 /* Debug */,
+				04664F8628AA8CCA00C8E7B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04664F8728AA8CCA00C8E7B1 /* Build configuration list for PBXNativeTarget "iTempsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04664F8828AA8CCA00C8E7B1 /* Debug */,
+				04664F8928AA8CCA00C8E7B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04664F8A28AA8CCA00C8E7B1 /* Build configuration list for PBXNativeTarget "iTempsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04664F8B28AA8CCA00C8E7B1 /* Debug */,
+				04664F8C28AA8CCA00C8E7B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04664F3928AA8CC300C8E7B1 /* Project object */;
+}
