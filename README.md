@@ -6,7 +6,6 @@
 
 The idea behind this simple app is to understand the basis of **SwiftUI**, to work with **location tracking permission** and **location access**, use different **APIs calls** from WatchOS, and **monitorization of the location** changes
 
-
 ## Location Tracking Permission and Location Access
 
 <img src="images/peticioUsuari.png" alt="permissos">
