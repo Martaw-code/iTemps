@@ -19,9 +19,9 @@ Using the Simulator that offers Xcode and via the option *Features->Location* of
 
 For the moment it fetches the data, but not working the Celcius-Fahrenheit conversion. Also for some cities, while querying the data the description for the weather is not available.
 
-<img src="images/location.png" alt="temps" width="400" height="300">
 
 <p align="center">
+<img src="images/location.png" alt="temps" width="400" height="300">
 <img src="images/cupertino.png" alt="temps" width="300" height="350">
 </p>
 
