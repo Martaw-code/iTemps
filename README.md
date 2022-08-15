@@ -11,6 +11,13 @@ The idea behind this simple app is to understand the basis of **SwiftUI**, to wo
 
 <img src="images/peticioUsuari.png" alt="permissos">
 
+## Reverse geocoding for coordinates
+
+***Currently working on this feature***
+
+Using the Simulator that offers Xcode and via the option *Features->Location* of the simulator, iTemps can show you the desired weather given particular coordinates.
+
+For the moment it fetches the data, but not working the Celcius-Fahrenheit conversion. Also for some cities, while querying the data the description for the weather is not available.
 
 ## APIs used
 
