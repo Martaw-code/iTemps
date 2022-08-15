@@ -12,7 +12,7 @@ The idea behind this simple app is to understand the basis of **SwiftUI**, to wo
 <img src="images/peticioUsuari.png" alt="permissos">
 
 
-##APIs used
+## APIs used
 
 * [BigDataCloud API](https://www.bigdatacloud.com)
 * [lil.software](https://lil.software/api/)
