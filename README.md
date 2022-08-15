@@ -19,6 +19,9 @@ Using the Simulator that offers Xcode and via the option *Features->Location* of
 
 For the moment it fetches the data, but not working the Celcius-Fahrenheit conversion. Also for some cities, while querying the data the description for the weather is not available.
 
+<img src="images/location.png" alt="temps">
+<img src="images/cupertino.png" alt="temps">
+
 ## APIs used
 
 * [BigDataCloud API](https://www.bigdatacloud.com)
